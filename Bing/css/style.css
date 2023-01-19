@@ -3,13 +3,80 @@
 }
 
 body {
+    background-image: url(../img/3397005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
-    font-size: 14px;
     font-family: arial,sans-serif;
     color: #202124;
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
+    height: 100vh;
 }
 
+nav {
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.nav-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#nav-1 {
+    margin-left: 20px;
+}
+
+#nav-2, #nav-3 {
+    color:white;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+#nav-1 p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer{
+    margin-top: 100px;
+    width: 40vw;
+    height: 45px;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+
+input {
+    all: unset;
+    background-color: white;
+    width: inherit;
+    height: inherit;
+    border-radius: 50px;
+    
+}
+
+.fa-solid, .fa-regular {
+    margin: 0 10px;
+}

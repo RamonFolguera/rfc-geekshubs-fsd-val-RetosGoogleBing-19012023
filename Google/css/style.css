@@ -65,7 +65,9 @@ input {
     outline: none;
     padding-left: 30px;
 }
-
+i {
+    
+}
 .inputContainer:hover {
     border: 1px rgb(183, 183, 183) solid;
     box-shadow: 1px 1px 1px 1px rgb(199, 199, 199);
