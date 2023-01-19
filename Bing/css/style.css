@@ -9,23 +9,33 @@ body {
     margin: 0;
     padding: 0;
     font-family: arial,sans-serif;
-    color: #202124;
     height: 100vh;
+    font-size: 0.8rem;
 }
 
-nav {
+#navbar {
+    margin-left: 100px;
     display:flex;
-    justify-content: space-between;
-   
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fa-microsoft {
+    font-size: 1.2rem;
 }
 
 .nav-block {
+    padding:0;
+    height: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
+.nav-block li {
+    margin: 20px;
+}
 
 #nav-1 {
     margin-left: 20px;
@@ -50,12 +60,19 @@ li {
     list-style: none;
 }
 
-main {
+#main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.inputContainer{
+.fa-microphone, .fa-camera, .fa-keyboard, .fa-magnifying-glass {
+    color:rgb(0, 111, 156);
+    font-size: 1.1rem;
+}
+
+.input-container{
     margin-top: 100px;
     width: 40vw;
     height: 45px;
@@ -65,6 +82,7 @@ main {
     display: flex;
     align-items: center;
     background-color: white;
+   
 
 }
 
@@ -80,3 +98,96 @@ input {
 .fa-solid, .fa-regular {
     margin: 0 10px;
 }
+
+
+.slide-container {
+    width: 80vw;
+    height: 30vh;
+    margin-top: 250px;
+}
+
+.top-slide-container, .bottom-slide-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#ffffff;
+}
+
+.top-slide-container div p, button {
+    height: 40px;
+}
+button {
+    background-color: rgba(36, 36, 36, 0.7);
+    border: none;
+    border-radius: 10px;
+}
+.top-slide-container div {
+    display: flex;
+    align-items: center;
+    
+}
+
+.top-slide-container div p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgba(36, 36, 36, 0.7);
+    border-radius: 5px;
+}
+
+#button-right-arrow {
+    margin-left: 5px;
+}
+
+.top-slide-container {
+    margin-bottom: 10px;
+}
+
+.top-slide-container div p i, button {
+    color:#ffffff;
+}
+
+
+.slide-box {
+    height: 120px;
+    width: 180px;
+    text-decoration: none;
+    color:#ffffff;
+    
+}
+
+.image-title {
+    height: 40px;
+    background-color: rgba(36, 36, 36, 0.7);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+
+.image {
+    height: 80px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#slide-1{
+    background-image: url(../img/slide1.JPG); 
+}
+#slide-2{
+    background-image: url(../img/slide2.jpg); 
+}
+#slide-3{
+    background-image: url(../img/slide3.jpg); 
+}
+#slide-4{
+    background-image: url(../img/slide4.JPG); 
+}
+#slide-5{
+    background-image: url(../img/slide5.JPG); 
+}
+#slide-6{
+    background-image: url(../img/slide6.JPG); 
+}
+
+

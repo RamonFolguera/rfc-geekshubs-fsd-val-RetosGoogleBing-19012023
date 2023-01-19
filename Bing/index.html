@@ -8,10 +8,11 @@
     <script src="https://kit.fontawesome.com/65024854fe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Bing</title>
+    <link rel="icon" type="image/x-icon" href="./img/search-interface-symbol.png">
 </head>
 
 <body>
-    <nav>
+    <div id="navbar">
         <div id="nav-1" class="nav-block">
             <i class="fa-brands fa-microsoft"></i>
             <p>Microsoft Bing</p>
@@ -35,9 +36,9 @@
                 <li>...</li>
             </ul>
         </div>
-    </nav>
-    <main>
-        <div class="inputContainer">
+    </div>
+    <div id="main">
+        <div class="input-container">
             <input type="text" id="searchInput" />
             <i class="fa-solid fa-microphone"></i>
             <i class="fa-solid fa-camera"></i>
@@ -45,8 +46,52 @@
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
 
-        <div>
-
+        <div class="slide-container">
+            <div class="top-slide-container">
+                <button>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div>
+                    <div>
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i>Las nubes danzan sobre Sundance...  
+                        </p>
+                    </div>
+                    <button>
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>                    
+                    <button id="button-right-arrow">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>                    
+                </div>
+            </div>
+            <div class="bottom-slide-container">
+                <a href="" class="slide-box">
+                    <div class="image-title">Las manifestaciones independientes...</div>
+                    <div id="slide-1" class="image"></div>
+                </a>
+                <a href="" class="slide-box">
+                    <div class="image-title">Rusia avisa de que la derro...</div>
+                    <div id="slide-2" class="image"></div>
+                </a>
+                <a href="" class="slide-box">
+                    <div class="image-title">El gran batacazo de Jesús</div>
+                    <div id="slide-3" class="image"></div>
+                </a>
+                <a href="" class="slide-box">
+                    <div class="image-title">Prisión para el detenido po...</div>
+                    <div id="slide-4" class="image"></div>
+                </a>
+                <a href="" class="slide-box">
+                    <div class="image-title">La manifestación independ...</div>
+                    <div id="slide-5" class="image"></div>
+                </a>
+                <a href="https://www.msn.com/es-es/noticias/internacional/pakist%C3%A1n-pide-a-ir%C3%A1n-investigar-un-ataque-transfronterizo-que-se-sald%C3%B3-con-cuatro-agentes-muertos/ar-AA16wcLN?ocid=BingHPCNews&cvid=a7911c549a7f4e9b8006e708cbc53148" class="slide-box">
+                    <div class="image-title">Pakistán pide a Irán investi...</div>
+                    <div id="slide-6" class="image"></div>
+                </a>
+                
+            </div>
             
         </div>
 
